@@ -39,7 +39,8 @@ function createSongTable(){
 		name VARCHAR(250),
 		is_on_release boolean,
 		created_date DATETIME,
-		last_updated_date DATETIME
+		last_updated_date DATETIME,
+		released_date DATETIME
 	) default charset=utf8');
 
 	$qry->execute();
